@@ -494,13 +494,14 @@ a {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
+  margin-left: -30px;
   margin-bottom: -30px;
 }
 
 .clients-list-item {
   display: flex;
   justify-content: center;
-
+  margin-left: 30px;
   height: 92px;
   min-width: 170px;
   border: 1px solid var(--clients-list-item-border-color);
@@ -508,10 +509,6 @@ a {
   margin-bottom: 30px;
   cursor: pointer;
   color: var(--clients-list-item-icon-color);
-}
-
-.clients-list-item:not(:first-of-type) {
-  margin-left: 30px;
 }
 
 .header-menu-list-contact-item .icon {
